@@ -13,7 +13,9 @@ import org.apache.hadoop.mapreduce.Reducer;
 /**
  *
  * @author Solechoel Arifin
+ *
  */
+
 public class WordCountReducer extends Reducer<Text,IntWritable,
                                               Text,IntWritable> {
       
